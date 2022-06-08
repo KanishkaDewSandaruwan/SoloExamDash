@@ -1,0 +1,32 @@
+{
+  "formName": "Exam",
+  "filterColumns":["name"],
+  "uniqueColumns": [],
+  "entityName": "exam",
+  "optionData":["years"],
+  "formItemList": [
+    {
+      "name": "language",
+      "type": "select1",
+      "options":["ENGLISH","TAMIL"],
+      "required": true
+    },
+    {
+      "name": "subject",
+      "type": "select1",
+      "options":["Sinhala","Maths"],
+      "required": true
+    },
+    {
+      "name": "years",
+      "type": "select",
+      "value": "year",
+      "required": true
+    },
+    {
+      "name": "examfilename",
+      "type": "file",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "formName": "Subject",
+  "filterColumns":["subject"],
+  "uniqueColumns": ["subject"],
+  "entityName": "subject",
+  "formItemList": [
+    {
+      "name": "subject",
+      "type": "input",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "formName": "Exam",
+  "filterColumns":["name"],
+  "uniqueColumns": [],
+  "entityName": "exam",
+  "optionData":["years","language","subject"],
+  "formItemList": [
+    {
+      "name": "language",
+      "type": "select",
+      "value": "language",
+      "required": true
+    },
+    {
+      "name": "subject",
+      "type": "select",
+      "value": "subject",
+      "required": true
+    },
+    {
+      "name": "years",
+      "type": "select",
+      "value": "year",
+      "required": true
+    },
+    {
+      "name": "examfilename",
+      "type": "file",
+      "required": true
+    }
+  ]
+}

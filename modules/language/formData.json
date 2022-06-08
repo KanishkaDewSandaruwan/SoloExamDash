@@ -1,0 +1,13 @@
+{
+  "formName": "Language",
+  "filterColumns":["name"],
+  "uniqueColumns": [],
+  "entityName": "language",
+  "formItemList": [
+    {
+      "name": "language",
+      "type": "input",
+      "required": true
+    }
+  ]
+}
